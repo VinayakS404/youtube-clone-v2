@@ -1,0 +1,20 @@
+.feed-container{
+  padding-top: 9.6rem;
+  width: 100%;
+}
+.feed-shorts-container{
+}
+.all-story-container{
+  display: grid;
+  grid-template-columns: 17rem 17rem;
+  column-gap: 0.7rem;
+  row-gap: 0.5rem;
+  margin-left: 1.7rem;
+}
+.single-shorts-box{
+}
+.story-img{
+  width: 16rem;
+  height: 24rem;
+  border-radius: 0.6rem;
+}
