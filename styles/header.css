@@ -12,6 +12,20 @@
   align-items: center;
   justify-content: space-between;
 }
+.yt-logo-img{
+  height:43px;
+  background: transparent;
+  padding: 5px 0 0 10px;
+}
+.search-container{
+  width: 100%;
+  height: 100%;
+}
+.search-icon-img{
+  height: 28px;
+  background: transparent;
+  padding-right: 10px;
+}
 .header-2nd{
   width: 100%;
   height: 48px;
@@ -27,26 +41,10 @@
   overflow-y: hidden;
   scrollbar-width: none;
 }
-.yt-logo-img{
-  height:43px;
-  background: transparent;
-  padding: 5px 0 0 10px;
-}
-.search-container{
-  width: 100%;
-  height: 100%;
-}
-.search-icon-img{
-  height: 28px;
-  background: transparent;
-  padding-right: 10px;
-}
-.feed-container{
-  height: 3000px;
-}
-.child{
+.header-2nd-child-all,
+.header-2nd-child{
   display: inline-block;
-  background-color: rgba(52, 51, 51, 0.7);
+  background-color: rgba(50, 49, 49, 0.7);
   backdrop-filter: blur(24px);
   padding: 0.7rem 1.2em 0.7rem 1.2rem;
   margin-left: 1.3rem;
@@ -54,4 +52,25 @@
   font-size: 1.4rem;
   color: white;
   border-radius: 0.7rem;
+}
+.header-2nd-child-all{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.header-2nd-child-explore{
+  display: flex;
+  height: 3.2rem;
+  background-color: rgba(50, 49, 49, 0.7);
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.2rem 0 1.3rem;
+  border-radius: 0.2rem;
+}
+.explore-icon{
+
+  height: 2rem;
+  backdrop-filter: blur(24px);
+  background: transparent;
+  padding: 0 1.1rem 0 1.1rem;
+
 }
